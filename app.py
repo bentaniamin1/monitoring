@@ -21,7 +21,7 @@ def metric():
 
 @app.route('/health', methods=['GET'])
 def healthy():
-    return jsonify({'status': 'healthy OK'})
+    return jsonify({'status': 'health OK'})
 
 @app.route('/')
 def home():
